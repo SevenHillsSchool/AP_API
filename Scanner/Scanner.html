@@ -1,60 +1,69 @@
-The Scanner class can be found in the java.util package. It is used to get user input from the command line. 
-Scanner can read and save primitive data types as well as Strings.
+<html>
+  <head>
+    <title>Scanner Class</title>
+  </head>
+  <body>
+    <h1>Scanner Class</h1>
 
-To use the Scanner class, create an object of the class and use any of the available methods found in the Scanner class documentation.
-In our example, we will use the nextLine() method, which is used to read Strings:
-
-  import java.util.Scanner;  // Import the Scanner class
-  
-  class Main {
-    public static void main(String[] args) {
-      Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-      System.out.println("Enter username");
-  
-      String userName = myObj.nextLine();  // Read user input
-      System.out.println("Username is: " + userName);  // Output user input
-    }
-  }
-
-Input Types:
-
-nextBoolean()	  Reads a boolean value from the user
-nextByte()	    Reads a byte value from the user
-nextDouble()	  Reads a double value from the user
-nextFloat()	    Reads a float value from the user
-nextInt()	      Reads a int value from the user
-nextLine()	    Reads a String value from the user
-nextLong()	    Reads a long value from the user
-nextShort()	    Reads a short value from the user
-
-Example:
-  Note: If you enter wrong input (e.g. text in a numerical input), you will get an exception/error message (like "InputMismatchException").
-
-  import java.util.Scanner;
-  
-  class Main {
-    public static void main(String[] args) {
-      Scanner myObj = new Scanner(System.in);
-  
-      System.out.println("Enter name, age and salary:");
-  
-      // String input
-      String name = myObj.nextLine();
-  
-      // Numerical input
-      int age = myObj.nextInt();
-      double salary = myObj.nextDouble();
-  
-      // Output input by user
-      System.out.println("Name: " + name);
-      System.out.println("Age: " + age);
-      System.out.println("Salary: " + salary);
-    }
-  }
-
-Note: When scanning anything other than nextLine(), it might be wise to clear the scanner's "buffer" by writing this in your code:
-
-[Scanner object].nextLine();
-
-This will scan all the way to the end of the line and create a new line for the user to input properly. 
-Not doing this might cause an error, as the scanner has not left the line that they previously scans and thus might scan the previous line again.
+    <p>The Scanner class can be found in the java.util package. It is used to get user input from the command line. </p>
+    <p>Scanner can read and save primitive data types as well as Strings.</p>
+    <p> </p>
+    <p>To use the Scanner class, create an object of the class and use any of the available methods found in the Scanner class documentation.</p>
+    <p>In our example, we will use the nextLine() method, which is used to read Strings:</p>
+    <p></p>
+      <em><p> import java.util.Scanner;  // Import the Scanner class</p>
+      <p></p>  
+      <p> class Main {</p>
+        <p>   public static void main(String[] args) {</p>
+          <p>     Scanner myObj = new Scanner(System.in);  // Create a Scanner object</p>
+          <p>     System.out.println("Enter username");</p>
+          <p></p>
+          <p>     String userName = myObj.nextLine();  // Read user input</p>
+          <p>     System.out.println("Username is: " + userName);  // Output user input</p>
+        <p>   }</p>
+      <p> }</p></em>
+      <p></p>
+      <p>Input Types:</p>
+      <p></p>
+      <p>nextBoolean()	  Reads a boolean value from the user</p>
+      <p>nextByte()	    Reads a byte value from the user</p>
+      <p>nextDouble()	  Reads a double value from the user</p>
+      <p>nextFloat()	    Reads a float value from the user</p>
+      <p>nextInt()	      Reads a int value from the user</p>
+      <p>nextLine()	    Reads a String value from the user</p>
+      <p>nextLong()	    Reads a long value from the user</p>
+      <p>nextShort()	    Reads a short value from the user</p>
+      <p></p>
+    <p>Example:</p>
+    <p>Note: If you enter wrong input (e.g. text in a numerical input), you will get an exception/error message (like "InputMismatchException").</p>
+    </p>
+    <em><p> import java.util.Scanner;</p>
+    </p>
+    <p> class Main {</p>
+      <p>   public static void main(String[] args) {</p>
+        <p>     Scanner myObj = new Scanner(System.in);</p>
+        <p></p>
+        <p>     System.out.println("Enter name, age and salary:");</p>
+        <p></p>
+        <p>     // String input</p>
+        <p>     String name = myObj.nextLine();</p>
+        <p></p>
+        <p>     // Numerical input</p>
+        <p>     int age = myObj.nextInt();</p>
+        <p>     double salary = myObj.nextDouble();</p>
+        <p></p>
+        <p>     // Output input by user</p>
+        <p>     System.out.println("Name: " + name);</p>
+        <p>     System.out.println("Age: " + age);</p>
+        <p>     System.out.println("Salary: " + salary);</p>
+        <p>   }</p>
+      <p> }</p></em>
+      <p></p>
+      <p>Note: When scanning anything other than nextLine(), it might be wise to clear the scanner's "buffer" by writing this in your code:</p>
+      <p></p>
+      <em><p> [Scanner object].nextLine();</p></em>
+      <p></p>
+      <p>This will scan all the way to the end of the line and create a new line for the user to input properly.</p>
+      <p>Not doing this might cause an error, as the scanner has not left the line that they previously scans and thus might scan the previous line again.</p>
+  </body>
+</html>
