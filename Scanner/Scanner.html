@@ -30,7 +30,6 @@ nextLong()	  Reads a long value from the user
 nextShort()	  Reads a short value from the user
 
 Example:
-  Note: If you enter wrong input (e.g. text in a numerical input), you will get an exception/error message (like "InputMismatchException").
 
   import java.util.Scanner;
   
@@ -53,6 +52,8 @@ Example:
       System.out.println("Salary: " + salary);
     }
   }
+
+Note: If you enter wrong input (e.g. text in a numerical input), you will get an exception/error message (like "InputMismatchException").
 
 Note: When scanning anything other than nextLine(), it might be wise to clear the scanner's "buffer" by writing this in your code:
 
