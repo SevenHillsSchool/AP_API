@@ -51,3 +51,10 @@ Example:
       System.out.println("Salary: " + salary);
     }
   }
+
+Note: When scanning anything other than nextLine(), it might be wise to clear the scanner's "buffer" by writing this in your code:
+
+[Scanner object].nextLine();
+
+This will scan all the way to the end of the line and create a new line for the user to input properly. 
+Not doing this might cause an error, as the scanner has not left the line that they previously scans and thus might scan the previous line again.
