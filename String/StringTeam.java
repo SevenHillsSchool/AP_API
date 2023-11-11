@@ -28,7 +28,27 @@
       -String string =  "String cheese is good";
        System.out.println(string.indexOf("cheese"));
        return 7; even though is int, string doing "work"// EVERYTHING must be counted for (spaces, punc., etc)
-      
+//Chinmay- 11/11
+  -str.toUpperCase() & str.toLowerCase();
+    -Changes all the character in a string to all caps or to all lowercase letters
+      String str = "Strong";
+      str.toUpperCase(str);
+      Result should print out "STRONG"
+      if it was toLowerCase(str); result should be "strong"
+
+      str.replace()
+        -replaces chars of a string with new chars that aare in the () of the replace
+           "mesquite in your cellar".replace('e', 'o')
+         returns "mosquito in your collar"
+
+  -str.intern()
+    - it does a check, where if two strings are the same, then it will return the string, but if not, then it will get added as a reference
+    -String s1=new String("hello");
+     String s2="hello";
+     String s3=s1.intern();//returns string from pool, now it will be same as s2.
+
+  -
+
 */
 
       
