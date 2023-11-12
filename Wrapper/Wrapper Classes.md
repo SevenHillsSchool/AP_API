@@ -1,6 +1,4 @@
 # WRAPPER CLASSES
-## Bytes (Ethan)
-## Short (Ethan)
 ## Integer (Ethan)
 **toString** <br>
 *public static String toString​(int i)* <br>
@@ -32,7 +30,7 @@ Converts a integer *i* to an instance of the Integer wrapper class and returns t
 
 Example:
 int x = 4;
-System.out.println(Integer.valueOf(x); -> prints the Integer object 4
+System.out.println(Integer.valueOf(x); -> prints the Integer object 4 <br>
 
 
 ## Long (Ethan)
