@@ -47,8 +47,27 @@
      String s2="hello";
      String s3=s1.intern();//returns string from pool, now it will be same as s2.
 
-  -
+//Jasper
+  -str.compareTo(String other)
+    -compares strings alphabetically by the first letters
+    -returns < 0 if the first string is less than the other string, > 0 if the first string is more than the other string, and returns 0 if they are equal
+    -String str = "hello";
+     String other = "apple";
+     str.compareTo(other) - returns value greater than 0 
 
+  -str.charAt(int num);
+    -returns the character at a specific index
+    String str = "Computer";
+    int num = 4;
+    str.charAt(num) - returns 'u';
+
+  -str.equalsIgnoreCase(String other)
+    -Compares 2 strings to each other regardless of capitalization
+    -returns a boolean based on whether the strings are equal to each other
+    String str = "SCIENCE";
+    String other = "science";
+    str.equalsIgnoreCase(other); - returns true
+    
 */
 
       
