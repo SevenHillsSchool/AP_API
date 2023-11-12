@@ -1,7 +1,7 @@
 # WRAPPER CLASSES
-## Bytes Ethan
-## Short Ethan
-## Integer Ethan
+## Bytes (Ethan)
+## Short (Ethan)
+## Integer (Ethan)
 **toString** <br>
 *public static String toString​(int i)* <br>
 Converts an integer *i* to a String.
@@ -34,7 +34,7 @@ Example:
 int x = 4;
 System.out.println(Integer.valueOf(x); -> prints the Integer object 4
 
-## Long Ethan
+## Long (Ethan)
 **toString** <br>
 *public static String toString​(long l)* <br>
 Converts a long *l* to a String.
@@ -45,11 +45,11 @@ System.out.println(Long.toString(4)); -> prints "42"
 
 **valueOf**
 *public static Long valueOf(long l)*
-Converts a value of the the long data type to an instance of the Long wrapper class and returns the converted Long object.
+Converts a long *l* to an instance of the Long wrapper class and returns the converted Long object.
 
 Example:
 long l = 42;
-System.out.println(Long.valueOf(l); -> prints the Long object 42
+System.out.println(Long.valueOf(l)); -> prints the Long object 42
 
 **parseLong** <br>
 *public static long parseLong(String s)* <br>
