@@ -1,1 +1,124 @@
+Math Class:
+
+Random: //Caleb Hamon
+
+Code:
+Math.random();
+Example:
+int randomNum = (int)(Math.random() * 101);  // 0 to 100
+Explanation:
+Math.random() gives a random number from greater than or equal to 0 to less than 1.
+
+Implementation:
+Multiplying it by the max number gives + 1 gives what you want from 0 to that max. If you do not want 0, then shift it left or right by adding or subtracting to the number you want your floor to be. The (int)will return the value as an int, otherwise do a double or a float for if you want a greater amount of numbers in the decimal place.
+
+Errors:
+There should not be too many errors. Make sure you plug in your max and make sure your math is right. Also, follow the parentheses so syntactically the code is sound. 
+
+
+Sqrt: //Caleb Hamon
+
+Code:
+
+Math.sqrt(x);
+
+Example:
+int sqrtNum = Math.sqrt(64) //8;
+Explanation:
+Math.sqrt() gives the square root of the number in the parentheses, in this case x.
+
+Implementation:
+You can set it equal to a variable to find a sqrt of a number you want
+
+Errors:
+There should not be any errors unless you put the (‘x’) outside of parentheses.
+
+
+
+Signum: //Caleb Hamon
+
+Code:
+
+Math.signum(x);
+
+Example:
+int sqrtNum = Math.sqrt(-91) //-1;
+Explanation:
+Math.signum() returns the sign of ‘x’, with a positive sign being returned with a 1, zero with a 0, and negative sign with -1.
+
+Implementation:
+You can set it equal to a variable to find the sign of ‘x’.
+
+Errors:
+There should not be any errors unless you put the (‘x’) outside of parentheses.
+
+
+CopySign: //Caleb Hamon
+
+Code:
+
+Math.copySign(x,y);
+
+Example:
+int sameSign = Math.copySign(7,-579) //-7;
+Explanation:
+Math.copySign() returns ‘x’ with the sign of ‘y’, so the same number will be there, it is just if it is positive or negative is what could be changed.
+
+Implementation:
+You can set it equal to a variable to change of ‘x’.
+
+Errors:
+There should not be any errors unless you put the (‘x’) outside of parentheses. *There may also be errors if ‘x’ is zero as zero does not have a sign, though I do not know if there is one or not*
+
+
+
+
+Operations //Andrew Zhou:
+-Absolute Value
+Math.abs(x)
+Works on ints, floats, longs, etc.
+
+-Round
+Math.round(x)
+Remember to not get confused with floor or ceil
+
+-Floor
+Math.floor(x)
+Pushes the number down to the closest integer smaller than the value
+
+*Remember when x is positive, its magnitude generally goes down (closer to zero), (i.e floor(3.7) = 3)
+
+*But, when x is negative, the magnitude increases (floor(-3.7) is not -3 but instead =-4) 
+
+-Ceil
+Math.ceil(x)
+Is basically floor but instead of down we go up (i.e Math.ceil(8.2) = 9)
+
+-Pow
+Math.pow(x,y)
+x^y
+X and y do not have to be integers, the return type includes decimals
+
+-min
+Math.min(x,y)
+Returns the smaller of the numbers
+
+-max
+Math.max(x,y)
+Returns the larger of the numbers
+-Other common operations also work
+For example,
+Math.sin()
+Math.cos()
+Math.tan()
+
+And other useful operations especially when dealing with math such as:
+
+toDegrees(x)
+toRadians(y)
+
+
+
+
+-Note: Mod does not exist, use the % math operator instead
 
