@@ -1,0 +1,57 @@
+Data types in Java are different sizes and values that can be stored in a variable. Java has two categories, primitive data types and non-primitive data types.
+
+Primitive Data Type: boolean, char, int, short, byte, long, float, and double
+Non-Primitive Data Type or Object Data type: String, Array, etc
+
+Primitive:
+  Byte
+    -It’s 1 byte (gestures at the name)
+    -Can store whole numbers from -128 to 127
+    -Bonus data type
+  Short
+    -2 bytes
+    -Can store whole numbers from -32.768 to 32, 767
+    -Bonus data type
+  Int
+    -4 bytes
+    -Can store whole numbers from -2, 147, 483,648 to 2, 147, 483, 647
+    Warning: an int will truncate (cut off) decimal values, not round them. Integer division also automatically truncates, so remember to typecast (add a (float) before the equation) if you want the decimals. 
+  Long
+    -8 bytes
+    -Can store whole numbers from -9, 223, 372, 036, 854, 775, 808 to 9,223,372,036,854,775,807
+  Float
+    -4 bytes
+    -Stores decimals up to 6-7 digits, depending on how big the integer part is
+  Double
+    -8 bytes
+    -Stores fractional numbers, up to 15 decimal digits.
+  Boolean
+    -1 bit
+    -0 is false, 1 is true
+    -Tip: With booleans, you can just include the variable name inside a conditional, without needing to check if varName == true.
+    -Tip: Make sure to type true or false in lowercase. 
+  Char
+    -Stores a single character
+    -Can be manipulated like an int according to its ASCII value
+Non-primitive:
+  String
+    -Can be any length as long as you have enough storage space
+    -Stored like a scavenger hunt
+    -Null marks the end of a string
+  Arrays
+    -A continuous series of a data type
+  Classes
+    -Create structs where variables are linked together
+    -Also create methods to use those variables
+Prefixes:
+  Static
+    -Even when trying to create multiple objects, only one of this variable will ever be created
+  Public
+    -Usually reserved for methods
+    -Any class can access this object’s method and run it
+  Private
+    -Usually used for attributes
+    -Only the object can access the variable
+  Final
+    -Creates a constant value that cannot be changed when running
+
