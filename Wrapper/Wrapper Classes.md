@@ -98,7 +98,7 @@ System.out.println(Double.toString(586.45)); -> prints "586.45"
 
 
 ## Boolean (Adi)
-**booleanValue** <br>
+**valueOf** <br>
 *public static Boolean valueOf(boolean b)* <br>
 Converts a boolean *b* to an instance of the Boolean wrapper class and returns the converted Boolean object.
 
@@ -114,4 +114,27 @@ Returns true if the value of String *s* == "true" (ignoring cases).
 Example:
 System.out.println(Boolean.parseBoolean("at98.533hy")); -> prints 98.533
 
-## Character Adi
+
+**toString** <br>
+*public String toString()* <br>
+Converts a boolean *b* to a String.
+
+Example:
+System.out.println(Boolean.toString(true)); -> prints "true"
+
+## Character (Adi)
+**valueOf** <br>
+*public static Character valueOf(char c)* <br>
+Converts a char *c* to an instance of the Character wrapper class and returns the converted Character object.
+
+Example:
+char c = 'y';
+System.out.println(Character.valueOf(c)); -> prints "y"
+
+
+**toString** <br>
+*public String toString()* <br>
+Converts a char *c* to a String.
+
+Example:
+System.out.println(Character.toString('w')); -> prints "w"
