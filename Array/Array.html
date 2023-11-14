@@ -53,18 +53,21 @@ for (int i=0; i < array.length; i++)//sequential search through an array, return
 	
 int[][] array; //Creating a 2D array
 
-int[][] array = new Array[x][y]; //x is the length of the array 
+int[][] array = new Array[x][y]; //x is the number of rows and y is the number of columns
 
-int[][] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; //create the array with the values
-specified
+int[][] array = {
+		{"1", "2"},
+            	{"3", "4"},
+            	{"5", "6"}
+        }; //create the 2D array with the values specified
 
-for(i=0; i<x; i++){ //print the array
+for(i=0; i<x; i++){ //print the 2D array
 	for(j=0; j<y; j++){
 		System.out.print(array[i][j]);
 	}
 }
 			  
-for(i=0; i<x; i++){ //define the elements in the array based on i
+for(i=0; i<x; i++){ //define the elements in the array based on i and j
 	for(j=0; j<y; j++){
 		array[i][j] = i+j;
 	}
