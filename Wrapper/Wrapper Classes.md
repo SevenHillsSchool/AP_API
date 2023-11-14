@@ -24,6 +24,7 @@ Example:
 Integer x = new Integer(4);
 System.out.println(x.intValue()); -> prints the int 4
 
+
 **valueOf** <br>
 *public static Integer valueOf(int i)* <br>
 Converts a integer *i* to an instance of the Integer wrapper class and returns the converted Integer object.
@@ -39,7 +40,7 @@ System.out.println(Integer.valueOf(x); -> prints the Integer object 4 <br>
 Converts a long *l* to a String.
 
 Example:
-System.out.println(Long.toString(4)); -> prints "42"
+System.out.println(Long.toString(42)); -> prints "42"
 
 
 **valueOf**
@@ -50,6 +51,7 @@ Example:
 long l = 42;
 System.out.println(Long.valueOf(l)); -> prints the Long object 42
 
+
 **parseLong** <br>
 *public static long parseLong(String s)* <br>
 Returns the first long value found in String *s*.
@@ -59,7 +61,57 @@ System.out.println(Long.parseLong("ABC123")); -> prints 123L
 
 
 
-## Float Adi
-## Double Adi
-## Boolean Adi
+## Double (Adi)
+**compareTo** <br>
+*public int compareTo(Double anotherDouble)* <br>
+Compares this Double and *anotherDouble* and returns an int. Returns 0 if *anotherDouble* == this Double, a negative number if this Double < *anotherDouble*, or a positive number if this Double > *anotherDouble*.
+
+Example:
+Double num = 4.0;
+System.out.println(num.compareTo(4.0)); -> prints 0
+
+
+**parseDouble** <br>
+*public static double parseDouble(String s)* <br>
+Returns the first Double value found in String *s*.
+
+Example:
+System.out.println(Double.parseDouble("at98.533hy")); -> prints 98.533
+
+
+**valueOf** <br>
+*public static Double valueOf(double d)* <br>
+Converts a double *d* to an instance of the Double wrapper class and returns the converted Double object.
+
+Example:
+double d = 6.45;
+System.out.println(Double.valueOf(d)); -> prints 6.45
+
+
+**toString** <br>
+*public String toString()* <br>
+Converts a double *d* to a String.
+
+Example:
+System.out.println(Double.toString(586.45)); -> prints "586.45"
+
+
+
+## Boolean (Adi)
+**booleanValue** <br>
+*public static Boolean valueOf(boolean b)* <br>
+Converts a boolean *b* to an instance of the Boolean wrapper class and returns the converted Boolean object.
+
+Example:
+boolean b = true;
+System.out.println(Boolean.valueOf(b)); -> prints true
+
+
+**parseBoolean** <br>
+*public static boolean parseBoolean(String s)* <br>
+Returns true if the value of String *s* == "true" (ignoring cases).
+
+Example:
+System.out.println(Boolean.parseBoolean("at98.533hy")); -> prints 98.533
+
 ## Character Adi
