@@ -30,6 +30,11 @@ Public Class(parameters){
 
 
 Methods:
+is called to complete specific function
+parameters can be inputted into methods 
+methods can return a data type
+void means no return value
+
 public datatype methodName(inputs)
 
 private datatype methodName(inputs)
