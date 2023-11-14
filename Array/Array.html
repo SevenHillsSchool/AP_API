@@ -20,8 +20,35 @@ for (int i = array.length; i > 0; i--){//back to front
     .....//action
 }
 
+for (int i=0; i < array.length; i++)//sequential search through an array, return the index of the target
+        {
+            if (elements[i] == target)
+            {
+                return i;
+            }
+        }
+        return -1;
 
-
+	//binary search(for sorted arrays only)
+	int left = 0;
+        int right = array.length - 1;
+        while (left <= right)
+        {
+            int middle = (left + right) / 2;
+            if (target < array[middle])
+            {
+                right = middle - 1;//throw away the second half
+            }
+            else if (target > array[middle])
+            {
+                left = middle + 1;//throw away the first half
+            }
+            else
+            {
+                return middle;
+            }
+        }
+        return -1;
 
 	
 int[][] array; //Creating a 2D array
