@@ -33,6 +33,8 @@ Primitive:
   Char
     -Stores a single character
     -Can be manipulated like an int according to its ASCII value
+    -The character is between two single quotes, such as 'a'
+    -Tip: If looking to delcare a null character, it is better to use the ASCII value, which is zero. 
 Non-primitive:
   String
     -Can be any length as long as you have enough storage space
