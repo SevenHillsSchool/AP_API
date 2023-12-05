@@ -67,6 +67,18 @@
     String str = "SCIENCE";
     String other = "science";
     str.equalsIgnoreCase(other); - returns true
+
+  -str.contains(str2);
+    -returns true if the first string contains the second string
+    -returns false if the first string does not contain the second string
+    String str = "hello"
+    String str2 = "he"
+    str.contains(str2) - returns true
+
+  -str.split("str here")
+    -returns an array of strings that is the str split up by whatever String is passed in 
+    String str = "h i";
+    str.split(" ") - returns an array of strings - {"h", "i"}
     
 */
 
