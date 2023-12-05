@@ -5,7 +5,7 @@
 Converts an integer *i* to a String.
 
 Example:
-System.out.println(Integer.toString(42)); -> prints "42"
+System.out.println(Integer.toString(42)); -> prints "42" <br>
 
 
 **parseInt** <br>
@@ -13,7 +13,7 @@ System.out.println(Integer.toString(42)); -> prints "42"
 Returns the first integer value found in String *s*.
 
 Example:
-System.out.println(Integer.parseInt("ABC12")); -> prints 12
+System.out.println(Integer.parseInt("ABC12")); -> prints 12 <br>
 
 
 **intValue** <br>
@@ -22,7 +22,7 @@ Converts an instance of the Integer wrapper class to a value of the int data typ
 
 Example:
 Integer x = new Integer(4);
-System.out.println(x.intValue()); -> prints the int 4
+System.out.println(x.intValue()); -> prints the int 4 <br>
 
 
 **valueOf** <br>
@@ -40,7 +40,7 @@ System.out.println(Integer.valueOf(x); -> prints the Integer object 4 <br>
 Converts a long *l* to a String.
 
 Example:
-System.out.println(Long.toString(42)); -> prints "42"
+System.out.println(Long.toString(42)); -> prints "42" <br>
 
 
 **valueOf**
@@ -49,7 +49,7 @@ Converts a long *l* to an instance of the Long wrapper class and returns the con
 
 Example:
 long l = 42;
-System.out.println(Long.valueOf(l)); -> prints the Long object 42
+System.out.println(Long.valueOf(l)); -> prints the Long object 42 <br>
 
 
 **parseLong** <br>
@@ -57,7 +57,7 @@ System.out.println(Long.valueOf(l)); -> prints the Long object 42
 Returns the first long value found in String *s*.
 
 Example:
-System.out.println(Long.parseLong("ABC123")); -> prints 123L
+System.out.println(Long.parseLong("ABC123")); -> prints 123L <br>
 
 
 
